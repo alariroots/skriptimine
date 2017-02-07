@@ -25,3 +25,14 @@ a)git remote add nimi address
 b)git remote kontroll
 
 sudo git remove -v
+
+p6hikasutamine:
+
+a) pane fail jalgimisele:
+sudo git add failinimi
+
+b)lisa kirjeldus muudatuste kohta
+sudo git commit -m "kirjeldus"
+
+c) lisa kaugrepositooriumi
+sudo git push -uf skriptimine master
