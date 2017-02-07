@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+#kasutaja loomine 
+echo -n "Sisesta kasutajanimi: "
+read kasutaja
+useradd $kasutaja -m -s /home/$kasutaja
+
+#skripti l6pp
+
