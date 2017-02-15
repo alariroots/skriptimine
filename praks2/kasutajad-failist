@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+#
+failinimi="kasutajad"
+	for rida in $(cat $failinimi)
+	do
+	kasutajanimi=$(echo "$rida" | cut -f1 -d:)
+	sh lisa-kasutaja $kasutajanimi
+	echo "$rida" | chpasswd
+done
+
